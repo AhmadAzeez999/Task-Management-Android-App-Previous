@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinalMobileAppProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="logout">Logout</string>
+    <string name="to_do_list_here">TO-DO List here</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+</resources>

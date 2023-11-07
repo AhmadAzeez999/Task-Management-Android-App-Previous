@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:id="@+id/contact_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile_pic">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft = "8dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahmad Azeez "
+                android:textColor="@color/mainText"
+                android:textSize="24dp"
+                android:gravity="center">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="azeeztriplea10@gmail.com"
+                android:textSize="16dp"
+                android:textColor="@color/mainText"
+                android:gravity="center">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_text"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/button_colours"
+        android:text="@string/logout"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/button_text_colours" />
+
+</LinearLayout>
